@@ -2,6 +2,13 @@
      text-align: center;
      margin-top: 50px;
  }
+ header
+ {
+    background-image: url(../hero.jpg);
+    background-size: cover;
+    background-position:center center ;
+    background-repeat: no-repeat;
+ }
 
  h1 {
      font-size: 80px;
@@ -17,7 +24,7 @@
  button {
      width: 250px;
      height: 80px;
-     background-color: wheat;
+     background-color: lightgray;
      color: white;
  }
 

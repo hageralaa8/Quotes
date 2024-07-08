@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
-<body style="background-color: blanchedalmond;">
-<div class="home">
-        <h1 class="text-success">Quote of the Day</h1>
+<body>
+<header class="vh-100 py-5">
+    <div class="content border border-4 w-50 mx-auto">
+        <h1 class="text-light"><span class="text-success">Quote</span> of the Day</h1>
         <p>Press the button below to recieve a random quote!</p>
         <button onclick="generateQuote()">New Quote</button>
-        <p class="text-danger" id="quoteOutput"></p>
+        <p class="text-success" id="quoteOutput"></p>
         <p class="text-danger" id="authorOutput"></p>
-    </div>    
+    </div> 
+</header>   
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
